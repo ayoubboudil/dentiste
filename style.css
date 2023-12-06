@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: rgb(50, 50, 206);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#home{
+    background-image: url('background1.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff; 
+    text-align: center; 
+    padding: 200px 0;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+}
+section .offers{
+    background-color: #fff ;
+}
+section {
+    padding: 10px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.offers h2{
+    align-items: center;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.services div{
+    max-width: 20%;
+    display: inline;
+    box-shadow: 0px 4px 15px -2px #0000001c;
+    margin-bottom: 15px;
+}
+.services img{
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.offers .container .services{
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+}
+
+.service-item {
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+}
+
+.service-item:last-child {
+    margin-right: 0;
+}
+.offers .services>div{
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px #0000001c;
+}
+/*TEAM*/
+
+#team {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.container-team{
+    padding: 20px;
+    align-items: center;
+}
+.equipe{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+
+.equipe div{
+    max-width: 20%;
+    display: inline;
+    box-shadow: 0px 4px 15px -2px #0000001c;
+    margin-bottom: 15px;
+}
+
+.equipe div img{
+    width: 100%;
+    height: 248px;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+/*contact*/
+#contact{
+    background: rgb(0, 0, 255, 0.07);
+    margin: 40px;
+}
+#contact .container{
+    max-width: 900px;
+}
+#contact .contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 240px;
+}
+#contact .contact-content .contact-info{
+    width: 60%;
+}
+#contact .contact-content .contact-info div{
+    margin: 30 px 0;
+    line-height: 1.7;
+}
+#contact .contact-content .contact-info h3{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 10px;
+}
+#contact .contact-content .contact-info p{
+    color: #979393;
+}
+#contact .contact-content .contact-info i{
+    color: orange;
+    margin-right: 5px;
+}
+#contact .contact-content .contact-info a i{
+    color: #fff;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#contact .contact-content .contact-info a i:hover{
+    background: orange;
+    color: #979393;
+}
+form{
+    width: 55%;
+}
+form input,
+textarea{
+    display: block;
+    width: 100%;
+    padding: 20px 15px ;
+    margin: 20px 0;
+    border: none;
+    background-color: #fff;
+}
+form .btn{
+    background-color: rgb(117, 117, 204);
+    color: #fff;
+    cursor: pointer;
+    transition: all 900ms;
+
+}
+form .btn:hover{
+    background-color: #979393;
+}
+
+/*footer*/
+#footer{
+    background: rgb(0, 0, 255);
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
+#footer a {
+    color: #fff;
+}
+#footer span{
+    color: black;
+}
